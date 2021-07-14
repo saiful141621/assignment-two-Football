@@ -250,6 +250,33 @@ body{
   }
 
   /*...........the End................... */
+  @media only screen and (max-width:360px){
+      
+    
+    .home, .banner{
+        display:flex;
+        grid-template-columns: repeat( 1fr);
+        
+    }
+   
+    
+    .player-of-football{
+        display:grid;
+        grid-template-columns: repeat( 1fr);
+        
+    }
+    .player-of-football img{
+        display: 100%;
+    }
+
+        .all-highlight{
+
+            display: grid;
+            grid-template-columns: repeat( 1fr);
+        }
+       
+
+  }
  
 
   
