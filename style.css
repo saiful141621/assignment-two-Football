@@ -6,7 +6,6 @@ body{
 .top-banner{
     width: 1440px;
     height: 789px;
-    border: 1px solid red;
     background-color: rgba(14, 14, 150, 0.836);
 
 }
@@ -20,9 +19,8 @@ body{
     margin-left: 156px;
     flex-direction: row;
     margin-right: 124px;
-    margin-top: 42px;
-    border:1px solid red;
-    padding: 0px;
+    margin-top:0px;
+      padding: 42px;
     
 }
 .Club{
@@ -31,12 +29,25 @@ body{
     color: #FFFFFF;
 
 }
+.loging{
+    width: 68px;
+    height:24px;
+    color: #FFFFFF; ;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding-left: 27px;
+    padding-right: 24px;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom:10px;
+
+}
 /* home End */
 
 
 .banner{
     display: flex;
-    /* justify-content: space-betweens; */
+   
     
     
     
@@ -48,17 +59,12 @@ body{
     height: 230px;
     margin-top: 121px;
     margin-left: 156px;
-    /* margin-bottom: 240px; */
+    
     margin-right: 799px;
    font-family: poppins;
-    /* line-height: 80px; */
-   font-size: 22px;
-    word-wraps: wrap;
-
-    font-style: normal;
-    font-weight: bold;
-    border: 1px solid red;
-    /* line-height: 80px; */
+   font-size:30px;
+   font-style: normal;
+   font-weight: bold;
     color: #FFFFFF;
 
 }
@@ -68,9 +74,6 @@ body{
     margin-top:27px;
     margin-left: 156px;
     margin-right: 1116px;
-    /* margin-bottom: 169px; */
-    /* position: absolute; */
-    border: 1px solid red;
     background: #E02C6D;
     justify-content: center;
     display: flex;
@@ -99,9 +102,10 @@ body{
    
 }
 #larg-img{
-    width: 388px;
+   
+    width: 500px;
     height: 428px;
-    margin-left:827px;
+    margin-left:727px;
     margin-top:49px; 
     margin-right: ;
     position: absolute;
@@ -109,13 +113,10 @@ body{
 /*---------------banner End-------------- */
 
 .player-container{
-    /* margin-left: 150px;
-    margin-right:180px; */
+    
     width: 1440px;
     width: 1471px;
     background-color: rgb(7, 37, 66);
-
-    border: 1px solid red;
     margin-left: 150px;
     margin-right: 210px;
 }
@@ -128,19 +129,17 @@ body{
 }
 .player-of-football img{
     width: 100%;
-    height:50%
+    height:54%
 }
 .player{
     width: 330px;
     height: 474px;
     margin-top:70px;
     margin-left: 30px;
-  
-    
-    border:1px solid red;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
-    ;border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
     background: #FFFFFF;
+    padding: 15px;
     
     
 
@@ -153,7 +152,7 @@ body{
   .all-highlight{
       width: 1440px;
       height: 732px;
-      border:2px solid blue;
+      
       margin-top: 2182px;
       display:flex;
       
@@ -166,7 +165,7 @@ body{
   .highlight-details{
       width: 466px;
       height: 309px;
-      border:1px solid red;
+     
       margin-left: 182px;
       margin-top:200px ;
       border-radius: 5px;
@@ -174,6 +173,13 @@ body{
       
 
 
+  }
+  #all{
+     font-size:40px; 
+     font-weight: bold;
+  }
+  #alls{
+      font-size: 16px;
   }
   #live{
       text-decoration: none;
@@ -192,9 +198,10 @@ body{
   #matches{
       width: 567px;
       height: 427px;
-      border: 1px solid red;
-      margin-left:69px;
+     
+      margin-left:160px;
       margin-top: 165px;
+    
   }
 
 
@@ -204,7 +211,7 @@ body{
   .logo-container{
       width:1440px;
       height: 266px;
-      border: 1px solid red;
+      
      
 
 
@@ -218,14 +225,14 @@ body{
     height: 110px;
     margin-left: 475px;
     margin-right:481px ;
-    border: 2px solid ;
+  
     
 
   }
   .logo-symble{
       width: 170px;
       height: 32px;
-      border:1px solid red;
+      
       margin-left: 632px;
       margin-top:20px;
       display: flex;
@@ -236,8 +243,8 @@ body{
   footer{
       width: 236px;
       height: 31px;
-      border: 1px solid red;
-      margin-left: 599px;
+     
+      margin-left: 615px;
       margin-top: 20px;
 
   }
